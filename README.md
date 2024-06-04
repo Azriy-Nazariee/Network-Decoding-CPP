@@ -4,7 +4,7 @@
 This program is a part of the CSN6224 – Network Security Lab 4 Exercise. It reads a PCAP file (`abc.pcap`), filters packets to identify those with both source and destination IP addresses belonging to Class B IPv4 address space, and writes these filtered packets to a new PCAP file (`xyz.pcap`). The program is written in C++ and includes necessary structures and functions to handle packet headers, Ethernet frames, and IP address classification.
 
 ## Files
-- `main.cpp`: Contains the main source code of the program.
+- `net1.cpp`: Contains the main source code of the program.
 - `abc.pcap`: Input PCAP file with captured network packets.
 - `xyz.pcap`: Output PCAP file with filtered packets.
 
